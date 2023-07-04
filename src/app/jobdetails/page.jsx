@@ -15,14 +15,14 @@ return (
     </div>
     <div className={`flex justify-center  p-20 ${classes.maindiv}`}>
     {
-                location.map((location,index)=>(
+                location.map((location)=>(
         <div className="max-w-xs rounded overflow-hidden shadow-lg">
             
 
                 
             <div className="px-6 py-4">
                 <div className="font-bold text-xl text-purple-700 mb-2">Software Engineer</div>
-                <h2 key={index} className='pb-3'>Zuge Electric Pvt Ltd <br />{location}</h2>
+                <h2 className='pb-3'>Zuge Electric Pvt Ltd <br />{location}</h2>
                 <div className='flex'>
                     <div className=' py-1 text-sm bg-gray-300 m-1'> ₹50,000- ₹1,00,000 a month</div>
                     <div className='py-1 bg-gray-300'> Full-time</div>

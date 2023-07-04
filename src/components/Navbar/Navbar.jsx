@@ -15,10 +15,10 @@ return (
   <div className={`${clasess.fontAni} flex flex-auto w-96`}>
 
     {
-    navItem.map((navItem, index) => (
+    navItem.map((navItem) => (
     <ul className=''>
       <Link href={`/${navItem}`}>
-      <li key={index} className={`${clasess.list} cursor-pointer hover:text-gray-400`}>{navItem}</li>
+      <li className={`${clasess.list} cursor-pointer hover:text-gray-400`}>{navItem}</li>
       </Link>
     </ul>
     ))
