@@ -18,7 +18,7 @@ return (
     navItem.map((navItem, index) => (
     <ul className=''>
       <Link href={`/${navItem}`}>
-      <li className={`${clasess.list} cursor-pointer hover:text-gray-400`}>{navItem}</li>
+      <li key={index} className={`${clasess.list} cursor-pointer hover:text-gray-400`}>{navItem}</li>
       </Link>
     </ul>
     ))

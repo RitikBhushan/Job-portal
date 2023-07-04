@@ -9,7 +9,7 @@ import classes from './footer.module.css'
 
 const Footer = () => {
 
-  const footElement =['About', "Need Help?"]
+  
 
   return (
     <div className='flex flex-col justify-center w-full items-center '>
