@@ -1,0 +1,6 @@
+@media screen and (max-width: 560px) {
+    .col{
+        flex-direction: column;
+        justify-content: none;
+    }
+    }

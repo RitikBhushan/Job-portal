@@ -1,0 +1,12 @@
+@media screen and (max-width: 560px) {
+  .nullDiv{
+    display: none;
+  }
+  .center > p{
+    padding-left: 50px;
+  }
+  .heading > h1{
+    padding-left: 50px;
+
+  }
+  }

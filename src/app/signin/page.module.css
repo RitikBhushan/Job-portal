@@ -1,0 +1,9 @@
+
+@media screen and (max-width: 560px) {
+    .nullDiv{
+      display: none;
+    }
+    .pad{
+        padding-left: 0;
+    }
+    }

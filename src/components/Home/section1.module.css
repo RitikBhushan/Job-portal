@@ -1,0 +1,23 @@
+
+@media screen and (max-width: 560px) {
+    .nullDiv{
+      display: none;
+    }
+    .introDiv > h1{
+        font-size: 30px;
+    }
+    .introDiv{
+      padding: 10px;
+    }
+    .stepDiv > h1{
+      font-size: 40px;
+    }
+    .stepDiv > button{
+      /* margin-bottom: 80px; */
+    }
+    .moveDiv{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 180px;
+    }
+  }

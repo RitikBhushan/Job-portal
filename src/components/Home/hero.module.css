@@ -1,0 +1,14 @@
+
+@media screen and (max-width: 560px) {
+    .textDiv > h1{
+        font-size: 40px;
+        padding: 0;
+    }
+    .textDiv{
+        margin-top: 80px;
+
+    }
+    .nullDiv{
+        display: none;
+    }
+  }

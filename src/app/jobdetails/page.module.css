@@ -1,0 +1,7 @@
+@media screen and (max-width: 560px) {
+    
+    .maindiv{
+        flex-direction: column;
+        
+    }
+    }

@@ -1,0 +1,28 @@
+
+.fontAni > ul {
+    display: flex;
+}
+.list{
+    margin-left: 57px;
+}
+
+.fontAni > ul > li:hover::before{
+    opacity: 0.8;
+    letter-spacing: 0px;
+}
+
+@media screen and (max-width: 560px) {
+    .mainDiv{
+        flex-direction: column;
+    }
+    .logoDiv >h1{
+        padding-left: 10px;
+        padding-bottom: 20px;
+    }
+    .list{
+        margin-left: 20px;
+    }
+    .nullDiv{
+        display: none;
+    }
+  }
