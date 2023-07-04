@@ -15,8 +15,8 @@ return (
     </div>
     <div className={`flex justify-center  p-20 ${classes.maindiv}`}>
     {
-                location.map((location)=>(
-        <div className="max-w-xs rounded overflow-hidden shadow-lg">
+                location.map((location,index)=>(
+        <div key={index} className="max-w-xs rounded overflow-hidden shadow-lg">
             
 
                 
