@@ -31,8 +31,11 @@ return (
         px-3 py-1 text-m ml-12 mx-8 border-2 border-purple-700 border-solid rounded-2xl w-28'>
       <Link href='./signin'>Sign In</Link>
     </button>
+    <Link href='/register'>
+      
     <button
       className='text-white text-m px-3 py-1 border-2 border-purple bg-purple-700 border-solid w-28 rounded-2xl'>Register</button>
+      </Link>
       </div>
   </div>
 </div>
@@ -40,3 +43,25 @@ return (
 }
 
 export default Navbar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

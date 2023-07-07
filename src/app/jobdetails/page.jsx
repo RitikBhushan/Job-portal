@@ -8,7 +8,7 @@ const Job = () => {
 return (
 <div className='container w-full pt-11 flex flex-col justify-center'>
     <div className='flex justify-center items-center flex-col w-full text-center '>
-        <h1 className='text-4xl'> <b> Lorem <span className='text-purple-700'>ametsh sit amet.</span> </b></h1>
+        <h1 className='text-4xl'> <b> Select <span className='text-purple-700'>your dream job.</span> </b></h1>
         <div className='w-80 border-purple-700 border-2 mt-2'></div>
         <p className='text-gray-500 space-x-3 pt-4 '>The quickest and most effective way to get hired by top firm
             working in your <br /> career intrest area</p>
@@ -28,7 +28,7 @@ return (
                     <div className='py-1 bg-gray-300'> Full-time</div>
                 </div>
                 <p className="text-gray-500 text-base pt-1">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!
+                We are seeking a highly skilled and motivated Software Engineer to join our innovative software development team. 
                 </p>
                 <button>more...</button>
             </div>

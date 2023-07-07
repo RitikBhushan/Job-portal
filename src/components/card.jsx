@@ -3,15 +3,15 @@ import Link from 'next/link'
 import React from 'react'
 
 
-const Card = ({title , img,links}) => {
+const Card = ({title , img,links, dec}) => {
 return (
-<div className="max-w-xs rounded overflow-hidden shadow-lg">
+<div className="max-w-xs rounded overflow-hidden shadow-lg ">
     {/* <img className="w-full" src="https://via.placeholder.com/300" alt="Card Image" /> */}
     <Image src={img} />
     <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2">{title}</div>
         <p className="text-gray-700 text-base">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!
+            {dec}
         </p>
     </div>
     <div className="px-6 py-4 pb-6">

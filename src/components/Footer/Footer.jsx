@@ -6,6 +6,7 @@ import insta from '../../../public/instagram.png'
 import youtube from '../../../public/youtube.png'
 import Image from 'next/image'
 import classes from './footer.module.css'
+import Link from 'next/link'
 
 const Footer = () => {
 
@@ -17,10 +18,10 @@ const Footer = () => {
       <div className={`flex flex-col justify-center w-full items-center space-y-3 ${classes.center}`}>
        
         <h1 className='text-purple-700 text-4xl'>Job<span className='text-orange-500'>hunt</span></h1>
-        <h4 className='text-gray-500'>Lorem ipsum dolor sit amet.</h4>
+        <h4 className='text-gray-500'>Get your dream job.</h4>
         <div className='w-96 border-purple-700 border-2'></div>
         <button className='text-white bg-orange-600 px-9 py-3 rounded-3xl'>Join us</button>
-        <p className='pb-6 text-gray-500'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed ullam modi .</p>
+        <p className='pb-6 text-gray-500'>Applying for jobs can be a time-consuming process, but we aim to simplify it for you.</p>
       </div>
       <div className='flex flex-col justify-center w-full items-center text-white bg-purple-500 py-5'>
         
@@ -33,6 +34,7 @@ const Footer = () => {
           
         </div>
         <div className={`flex flex-col justify-center w-full items-center pb-10 ${classes.nullDiv}`}>
+            <Link href='./'>
           <ul className='flex space-x-10'>
             <li>About</li>
             <li> Need Help?</li>
@@ -43,10 +45,11 @@ const Footer = () => {
             <li>Lern</li>
             <li>Contact Us</li>
           </ul>
+            </Link>
         </div>
         <div className={`flex flex-col justify-center w-full items-center ${classes.heading}`}>
-          <p className='pb-3 text-sm text-gray-200'>Lorem ipsum dolor sit amet.</p>
-          <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, praesentium.</h1>
+          <p className='pb-3 text-sm text-gray-200'>Exprence with the quality .</p>
+          <h1>JobHunt - Your Gateway to a Bright Future.</h1>
           <p className='pt-2'>© copy right</p>
         </div>
       </div>

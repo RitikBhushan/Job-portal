@@ -23,9 +23,8 @@ return (
             <div className={`flex flex-col justify-center items-center w-full ${classes.stepDiv}`}>
                 <h1 className='text-7xl'>First <span className='text-purple-700'>Step</span> </h1>
                 <div className='w-48 border-purple-700 border-2 mt-2'></div>
-                <p className='pt-10 text-gray-600'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-                    debitis quae culpa ex vero in odit quod earum reprehenderit consequatur.
-                    Nesciunt dolorum et sed exercitationem alias assumenda, numquam minus vel quasi blanditiis?</p>
+                <p className='pt-10 text-gray-600'>The first step in joining a job is to search for relevant job openings and submit your application and resume. Tailor your resume to highlight your skills and experience that align with the job requirements. Pay attention to the application 
+                instructions provided by the employer, and ensure that you provide all the necessary information accurately and </p>
                 <button className='mt-10 border-2 border-purple-700 py-2 px-5 rounded-2xl'>Read more</button>
             </div>
         </div>
